@@ -18,7 +18,11 @@ font-weight: bold;
 }
 h2 {
     font-weight: bold;
-
+    font-size:23px;
+    margin-bottom:20;
+}
+a.font-black{
+    color:#000;
 }
 /************
 ABOUT
@@ -69,9 +73,44 @@ font-size:30px;
 }
 .navbarToggler{
     color:white;
-    margin-left:auto;
 }
 .navbar-toggler-icon{
   color:white;
-  margin-left:auto;
+}
+#projects{
+
+  width:80%;
+  margin:auto;
+
+}
+#projects h2{
+    text-align:center;
+}
+
+#projects img{
+    width:100%;
+}
+#projects .card img {
+    width:100%;
+    
+}
+#projects .card  {
+    width:200%;
+    
+}
+#projects .card-img-bottom{
+margin-right:500px;
+}
+.card-img-bottom {  
+  width:300px;
+  height:300px;
+  object-fit:cover;
+
+}
+#projects .bg-dark{
+    color:rgb(21, 20, 20);
+}
+#projects .card bg-dark{
+    color: rgb(97, 28, 28);
+
 }
