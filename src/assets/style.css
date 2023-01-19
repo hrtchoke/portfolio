@@ -2,7 +2,10 @@ body{
     font-family:"monospace", sans-serif;
 
 }
-
+div#about{
+    
+    width:100%;
+}
 .font-primary{
 color:rgb(97, 28, 28);
 font-weight: bold;
@@ -17,7 +20,11 @@ font-weight: bold;
     font-weight:bold;
 
 }
+.nav-item.a{
+
+}
 h2 {
+    
     text-align: center;
     font-weight: bold;
     font-size:23px;
@@ -31,8 +38,9 @@ ABOUT
 ********************/
 
 #about{
-    margin: 60px auto;
-    max-width: 400px;
+    
+    padding: 60px;
+    width:100%;
     text-align: center;
 
 }
@@ -42,13 +50,18 @@ ABOUT
     margin-bottom: 10px;
 
 }
-
+div.name{
+    font-style: italic;
+}
 #about .name{
+    
     font-size: 19px;
-    color:rgb(255, 255, 255);
+    color: white;
     font: weight 100%;
 }
-
+h2{
+    text-decoration: underline;
+}
 #about .vocation{
     color: #a8a8ab;;
     font-size: 17px;
@@ -65,7 +78,11 @@ ABOUT
 #about .email{
     margin-top: 14px;
     font-size:14px;
-    color:black;
+    color:white;
+    font-style: italic;
+}
+div.email{
+    font-style: italic;
 }
 
 #about .icons {
@@ -85,7 +102,9 @@ font-size:30px;
   margin:auto;
 
 }
-
+section.content{
+    background: rgba(0, 0, 0,0.9);
+}
 .email{
     color:black;
 }
@@ -103,6 +122,7 @@ font-size:30px;
     margin-left: calc(var(--bs-gutter-x)/ -2);
 }
 .card {
+    transform: scale(0.9);
     position: relative;
     display: flex;
     flex-direction: column;
@@ -113,6 +133,21 @@ font-size:30px;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: 0.25rem;
 }
-#project .card-img-bottom{
+#project img{
     height: 100%;
+    width: 100%;
+}
+div.row{
+    
+}
+div.card-mb-3{
+    
+}
+div.col-md-4{
+width: 252rem;
+}
+
+nav.navbar.navbar-expand-lg.shadow-sm.navbar-dark{
+    position: relative;
+    border-bottom: 1px solid rgba(255, 255, 255,0.1);
 }
