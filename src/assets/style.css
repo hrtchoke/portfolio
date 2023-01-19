@@ -1,0 +1,118 @@
+body{
+    font-family:"monospace", sans-serif;
+
+}
+
+.font-primary{
+color:rgb(97, 28, 28);
+font-weight: bold;
+}
+
+.title-icon {
+font-size: 20px;
+font-weight: bold;
+
+}
+.boldd{
+    font-weight:bold;
+
+}
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size:23px;
+    margin-bottom:20;
+}
+a.font-black{
+    color:#000;
+}
+/************
+ABOUT
+********************/
+
+#about{
+    margin: 60px auto;
+    max-width: 400px;
+    text-align: center;
+
+}
+#about img{
+    border-radius: 70%;
+    width: 130px;
+    margin-bottom: 10px;
+
+}
+
+#about .name{
+    font-size: 19px;
+    color:rgb(255, 255, 255);
+    font: weight 100%;
+}
+
+#about .vocation{
+    color: #a8a8ab;;
+    font-size: 17px;
+    margin-bottom: 10px;
+    font-weight:bolder;
+}
+#about .skills {
+
+    font-size: 14px;
+    color: rgb(97, 28, 28);
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+#about .email{
+    margin-top: 14px;
+    font-size:14px;
+    color:black;
+}
+
+#about .icons {
+margin-top:15px;
+font-size:30px;
+
+}
+.navbarToggler{
+    color:white;
+}
+.navbar-toggler-icon{
+  color:white;
+}
+#project{
+
+  width:80%;
+  margin:auto;
+
+}
+
+.email{
+    color:black;
+}
+#project img{
+    width:75%;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+#project .card-img-bottom{
+    height: 100%;
+}
